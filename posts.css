@@ -1,0 +1,63 @@
+body {
+  background-image: linear-gradient(to bottom right, #932424, #1d1d75);
+}
+
+.container {
+  width: 90%;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.users {
+  width: 30%;
+  padding: 15px;
+}
+.users .user {
+  padding: 15px;
+  border-radius: 30px;
+  color: white;
+  background-color: #19315b;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin: 15px 0px;
+  cursor: pointer;
+}
+.users .user p {
+  margin: 0px;
+  font-size: 18px;
+  font-family: system-ui;
+  margin-top: 5px;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+.users .selected {
+  border: 6px rgb(255, 139, 30) groove;
+}
+.posts {
+  width: 70%;
+  padding: 15px;
+  background-color: #ddd;
+}
+.posts .post {
+  padding: 15px;
+  border-radius: 30px;
+  background-color: white;
+  font-size: 17px;
+  margin: 15px 0px;
+}
+.posts .post h3 {
+  margin: 0px;
+  margin-top: 5px;
+  font-size: 19px;
+  font-family: system-ui;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+.posts .post p {
+  margin: 0px;
+  margin-top: 5px;
+  font-size: 19px;
+  font-family: system-ui;
+}
